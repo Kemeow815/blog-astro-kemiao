@@ -9,9 +9,15 @@ import IconPinterest from "@/assets/icons/IconPinterest.svg";
 export const SOCIALS = [
   {
     name: "Github",
-    href: "https://github.com/Ouzr0107",
+    href: "https://github.com/Kemeow815",
     linkTitle: `我的 github 页面`,
     icon: IconGitHub,
+  },
+  {
+    name: "Telegram",
+    href: "https://t.me/KemiaoJun",
+    linkTitle: `我的 Telegram 页面`,
+    icon: IconTelegram,
   },
   // {
   //   name: "X",
@@ -27,7 +33,7 @@ export const SOCIALS = [
   // },
   {
     name: "Mail",
-    href: "",
+    href: "mailto:kemiaofx@163.com",
     linkTitle: `向我发送邮件`,
     icon: IconMail,
   },

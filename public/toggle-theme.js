@@ -78,14 +78,14 @@ function loadGiscus() {
   // 创建 script 元素
   const script = document.createElement("script");
   script.src = "https://giscus.app/client.js";
-  script.dataset.repo = "Ouzr0107/blog";
-  script.dataset.repoId = "R_kgDOOJWcnQ";
+  script.dataset.repo = "Kemeow815/blog-astro-kemiao";
+  script.dataset.repoId = "R_kgDOOWa52g";
   script.dataset.category = "Announcements";
-  script.dataset.categoryId = "DIC_kwDOOJWcnc4Codjf";
+  script.dataset.categoryId = "DIC_kwDOOWa52s4Co6-z";
   script.dataset.mapping = "title";
   script.dataset.strict = "0";
   script.dataset.reactionsEnabled = "1";
-  script.dataset.emitMetadata = "0";
+  script.dataset.emitMetadata = "1";
   script.dataset.inputPosition = "top";
   script.dataset.theme = theme; // 动态设置主题
   script.dataset.lang = "zh-CN";

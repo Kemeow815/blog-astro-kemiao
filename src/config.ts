@@ -1,10 +1,10 @@
 export const SITE = {
-  website: "https://imwzj.uk/", // replace this with your deployed domain
-  author: "王小明",
-  profile: "https://imwzj.uk/",
-  desc: "乱七八糟就像我一样",
-  title: "王小明的杂物堆",
-  ogImage: "astropaper-og.jpg",
+  website: "https://cn.kemiao.online", // replace this with your deployed domain
+  author: "克喵爱吃卤面",
+  profile: "https://cn.kemiao.online/",
+  desc: "每一段旅行都有终点~",
+  title: "克喵的休闲栈",
+  ogImage: "touxiang.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -16,7 +16,7 @@ export const SITE = {
     text: "",
     url: "",
   },
-  dynamicOgImage: false,
+  dynamicOgImage: true,
   lang: "zh-CN", // html lang code. Set this empty and default will be "en"
   timezone: "Asia/Shanghai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
