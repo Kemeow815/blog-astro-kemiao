@@ -89,6 +89,26 @@ const isActive = (path: string) => {
               友链
             </a>
           </li>
+          <li class="col-span-2">
+            <a
+              href="https://moments.kemiao.online"
+              class:list={{
+                "active-nav": isActive("https://moments.kemiao.online"),
+              }}
+            >
+              说说
+            </a>
+          </li>
+          <li class="col-span-2">
+            <a
+              href="https://music.kemiao.online"
+              class:list={{
+                "active-nav": isActive("https://music.kemiao.online"),
+              }}
+            >
+              音乐
+            </a>
+          </li>
           {
             SITE.showArchives && (
               <li class="col-span-2">
@@ -133,9 +153,9 @@ const isActive = (path: string) => {
                   aria-label="auto"
                   aria-live="polite"
                 >
-                  <IconMoon class="group-aria-[label='dark']:scale-100 group-aria-[label='dark']:rotate-0 absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all" />
-                  <IconSunHigh class="group-aria-[label='light']:scale-100 group-aria-[label='light']:rotate-0 absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all" />
-                  <IconSystem class="group-aria-[label='auto']:scale-100 group-aria-[label='auto']:rotate-0 absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all hover:fill-accent" />
+                  <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all group-aria-[label='dark']:scale-100 group-aria-[label='dark']:rotate-0" />
+                  <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all group-aria-[label='light']:scale-100 group-aria-[label='light']:rotate-0" />
+                  <IconSystem class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all group-aria-[label='auto']:scale-100 group-aria-[label='auto']:rotate-0 hover:fill-accent" />
                 </button>
               </li>
             )
